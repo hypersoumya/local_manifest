@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- device trees -->
+
+        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="pixel-devices"/>
+        <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="pixel-devices"/>
+        <project path="device/xiaomi/extas" name="device_xiaomi_sm6150-extras" remote="pixel-devices"/>
+        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="pixel-devices-blobs"/>
+        <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sm6150-common" remote="pixel-devices-blobs"A/>
+
+<!-- kernel -->
+        
+        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="pixel-devices"clone-depth="1" />
+
+</manifest>
